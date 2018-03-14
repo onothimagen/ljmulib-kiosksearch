@@ -39,7 +39,6 @@
   		if ( siteonly ) { 
   			i = i.concat(primoSiteFacet.valueOf()); 
   		} 
-  		alert(i);
   		i=i.replace(/&amp;/g,"&"),window.open(i.replace("{search}",t)) 
   		return false; 
   	}
