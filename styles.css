@@ -1,0 +1,93 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h1, h1 i, h2 {
+  color: white;
+}
+
+#toprow1 {
+  background: #005C97;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #363795, #005C97);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #363795, #005C97);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#toprow2 {
+  background: #8e9eab;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #eef2f3, #8e9eab);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #eef2f3, #8e9eab);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#main{
+
+  padding: 1em;
+  text-align: center;
+  min-height: 400px;
+  padding: 0.5em;
+   
+background: rgb(238,238,238); /* Old browsers */
+background: -moz-linear-gradient(top, rgb(238,238,238) 0%, rgb(204,204,204) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgb(238,238,238) 0%,rgb(204,204,204) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgb(238,238,238) 0%,rgb(204,204,204) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 ); /* IE6-9 */  
+}
+
+#bottomrow1 {
+    
+  color: white;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2a5298, #1e3c72);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2a5298, #1e3c72);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+}
+
+#searchtext { 
+font-size: large;
+width: 50%;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+
+}
+
+#formbutton1 {
+    background-color: #005C97; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#searchtext-label {
+ display: block;
+ font-weight: bold;
+ }
+
+
+
+
+
+#ljmulogo {
+  width: 250px;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+}
