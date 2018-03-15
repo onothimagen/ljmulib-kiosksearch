@@ -1,4 +1,4 @@
-	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -20,42 +20,48 @@
 </head>
 
 <body onload="initialise()">
-<div class="container">
-  <div id="toprow1" class="row col">
-    <h1>Discover</h1>
-  </div>
-  <div id="toprow2" class="row col">
-    <h2>Library Catalogue Search</h2>
-  </div>
-  <div id="main" class="row col">
+  <div class="container">
+    <div id="toprow1" class="row col">
+      <h1>Discover</h1>
+
+      <h2>Library Catalogue Search</h2>
+    </div>
+
     <form name="easysearch" id="easysearch" method="get" onsubmit="return goSearch()">
       <input name="searchurl" id="searchurl" type="hidden" />
 
-      <div id="searchbox">
-        <label for="searchtext" id="searchtext-label">Search for</label> <input name="searchtext"
-        id="searchtext" type="text" />
+      <div id="toprow2" class="row col">
+        <div id="searchbox">
+          <label for="searchtext" id="searchtext-label"><span><input name="searchtext" id=
+          "searchtext" class="search rounded" type="text" placeholder="Search..." /></span></label>
+        </div>
       </div>
 
-      <div class="checkbox">
-        <label for="booksonly" class="booksonly-label">Books only</label><input id="booksonly"
-        name="booksonly" checked="yes" type="checkbox" />
-      </div>
+      <div id="main" class="row col">
+        <div class="buttongroup">
+          <div class="option">
+            <label for="booksonly" class="containerb booksonly-label"><span class=
+            "label-button">Books only</span> <input type="checkbox" checked="checked" id=
+            "booksonly" name="booksonly" /> </label>
+          </div>
 
-      <div class="checkbox">
-        <label for="siteonly" class="siteonly-label" id="siteonly-label"><span id="siteonly-sitename">Undefined</span> only</label><input name="siteonly" id=
-        "siteonly" checked="yes" type="checkbox" />
-      </div>
+          <div class="option">
+            <label for="siteonly" class="containerb siteonly-label"><span id="siteonly-sitename"
+            class="label-button">Undefined</span> <input type="checkbox" checked="checked" id=
+            "siteonly" name="siteonly" /> </label>
+          </div>
+        </div>
 
-      <div id="formbuttons">
-        <button class="submitbutton" type="submit">Search</button> <button class="resetbutton"
-        type="reset">Reset</button>
+        <div id="formbuttons">
+          <button class="submitbutton" type="submit">Search</button> <button class="resetbutton"
+          type="reset">Reset</button>
+        </div>
       </div>
     </form>
-  </div>
 
-  <div id="bottomrow1" class="row col">
+    <div id="bottomrow1" class="row col">
       Liverpool John Moores University Library
+    </div>
   </div>
-</div>
 </body>
 </html>
