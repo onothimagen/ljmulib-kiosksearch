@@ -117,9 +117,10 @@
     padding: 16px;
     width: 28em;
     margin: auto;
-    border-radius: 24px;
-    -moz-border-radius: 24px;
-    -webkit-border-radius: 24px;
+    border-radius: 28px;
+    -moz-border-radius: 28px;
+    -webkit-border-radius: 28px;
     font-size: large;
+    outline: none;
   }
   /* END OF SEARCHBOX STYLES */
