@@ -40,6 +40,5 @@
   			i = i.concat(primoSiteFacet.valueOf());
   		}
   		i=i.replace(/&amp;/g,"&"),window.open(i.replace("{search}",t))
-      i=i.replace(/&amp;/g,"&"),window.open(i.replace("{search}",t))
   		return false;
   	}
