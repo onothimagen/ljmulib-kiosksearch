@@ -121,6 +121,8 @@
     -moz-border-radius: 28px;
     -webkit-border-radius: 28px;
     font-size: large;
+  }
+  #searchtext:focus {
     outline: none;
   }
   /* END OF SEARCHBOX STYLES */
