@@ -122,6 +122,6 @@
     -webkit-border-radius: 28px;
     font-size: large;
   }
-#input:focus { outline: 0; border: 0; }
+input:focus { outline: 0; border: 0; }
 
   /* END OF SEARCHBOX STYLES */
