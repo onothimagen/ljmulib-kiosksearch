@@ -39,7 +39,12 @@
   		if ( siteonly ) {
   			i = i.concat(primoSiteFacet.valueOf());
   		}
+	        /* THIS FOR RESULTS OPEN IN NEW WINDOW */
+	    	   /* i=i.replace(/&amp;/g,"&"),window.open(i.replace("{search}",t)) */
+	  
+	        /* THIS FOR RESULTS OPEN IN SAME WINDOW */
   		i=i.replace(/&amp;/g,"&");
 	        window.location.href = i.replace("{search}",t);
+	  
   		return false;
   	}
