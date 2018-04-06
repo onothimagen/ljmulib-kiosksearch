@@ -115,7 +115,8 @@
 
   #searchtext {
     padding: 16px;
-    width: 60%;
+    width: 28em;
+    max-width: 80%;
     margin: auto;
     border-radius: 28px;
     -moz-border-radius: 28px;
