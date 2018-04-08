@@ -20,7 +20,8 @@
     </div>
 
     <div id="main" class="row col-12">
-      <form id="easysearch" method="get" onsubmit="return goSearch()" >
+      <form name="easysearch"  id="easysearch" method="get" onsubmit="return goSearch()">
+        <input name="searchurl" id="searchurl" type="hidden" />
         <div style="text-align: center;">
           <div class="button_row search_row">
             <label for="searchtext" id="searchtext-label"><span><input name="searchtext" id=
@@ -39,7 +40,6 @@
           <div class="button_row button_row_bottom">
             <button type="submit" class="btn search">Search</button><br />
             <button type="reset" class="btn reset btn_weak">Reset</button> 
-            <input name="searchurl" id="searchurl" type="hidden" />
           </div>
         </div>
       </form>
