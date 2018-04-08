@@ -46,11 +46,11 @@
   }
 
   .button_row {
-    margin: 1em;
+    padding: 1em;
   }
 
   .button_row_bottom, .search_row {
-    margin: 2em;
+    padding: 2em;
   }
 
   .search, .reset {
