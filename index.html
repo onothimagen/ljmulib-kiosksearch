@@ -7,11 +7,10 @@
   <meta name="generator" content="HTML Tidy for Mac OS X (vers 31 October 2006 - Apple Inc. build 15.18.1), see www.w3.org" />
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title></title>
   <link rel="stylesheet" type="text/css" href="simple-grid.css" />
   <link rel="stylesheet" type="text/css" href="styles.css" />
   <script src="scripts.js" type="text/javascript"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
   <title>Discover: Library Catalogue Search</title>
 </head>
 
@@ -25,39 +24,29 @@
 
     <div id="main" class="row col-12">
       <form name="easysearch" id="easysearch" method="get" onsubmit="return goSearch()">
-        <input name="searchurl" id="searchurl" type="hidden" />
         <div style="text-align: center;">
           <div class="button_row search_row">
-
             <label for="searchtext" id="searchtext-label"><span><input name="searchtext" id=
             "searchtext" class="search rounded" type="text" autofocus placeholder="Enter a title, subject or author..." /></span></label>
-
           </div>
-
           <div>
             <label for="booksonly"><span class="btn">Books Only</span><input type="checkbox" checked=
             "checked" id=
             "booksonly" name="booksonly" /></label>
           </div>
-
-
-
-
-
           <div class="button_row">
             <label for="siteonly"><span class="btn" id="siteonly-sitename">Site</span><input type="checkbox" checked=
             "checked"  id=
             "siteonly" name="siteonly"/></label>
           </div>
-
           <div class="button_row button_row_bottom">
-              <button type="submit" class="btn search">Search</button><br />
+            <button type="submit" class="btn search">Search</button><br />
             <button type="reset" class="btn reset btn_weak">Reset</button> 
+            <input name="searchurl" id="searchurl" type="hidden" />
           </div>
         </div>
       </form>
     </div>
-
     <div id="bottomrow" class="row col-12">
       LJMU
     </div>
