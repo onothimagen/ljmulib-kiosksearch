@@ -10,8 +10,8 @@
     text-align: center;
     padding: 1em;
   }
-  /* OVERRIDE SIMPLE GRID STYLES */
 
+  /* OVERRIDE SIMPLE GRID STYLES
   .container {
     width: 100%;
     max-width: 100%;
@@ -20,6 +20,8 @@
   .col-12 {
     width: 100%;
   }
+  */
+
   /* START OF BUTTON STYLES */
 
   .btn {
